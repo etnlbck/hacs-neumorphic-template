@@ -1,6 +1,108 @@
 ---
 #
-# Template Theme
+# Neumorphic Theme
 #
-template:
-  primary-color: "#228B22"
+Neumorphic:
+  primary-color: "#e0e0e0"
+  modes:
+    light:
+      # Main Colors
+      accent-color: "#a3b1c6"
+      background-color: "#e0e0e0"
+      card-background-color: "#e0e0e0"
+      secondary-background-color: "#e0e0e0"
+      primary-background-color: "#e0e0e0"
+      text-primary-color: "#333333"
+      text-light-primary-color: "#666666"
+      text-medium-light-color: "#888888"
+      disabled-text-color: "#bbbbbb"
+      divider-color: "#e0e0e0"
+      icon-primary-color: "#23272e"
+      ha-section-grid-row-gap: "16px"
+      ha-section-grid-column-gap: "16px"
+      switch-unchecked-color: "#a3b1c6"
+      # Neumorphic Shadows
+      ha-card-box-shadow: "9px 9px 16px #bebebe, -9px -9px 16px #ffffff"
+      # Card
+      ha-card-border-radius: "18px"
+      ha-card-background: "#e0e0e0"
+      # Header
+      app-header-background-color: "#e0e0e0"
+      app-header-text-color: "#333333"
+      # Sidebar
+      sidebar-background-color: "#e0e0e0"
+      sidebar-icon-color: "#a3b1c6"
+      sidebar-text-color: "#333333"
+      sidebar-selected-background-color: "#d1d9e6"
+      sidebar-selected-icon-color: "#a3b1c6"
+      sidebar-selected-text-color: "#333333"
+      # Switches and Sliders
+      switch-checked-button-color: "#a3b1c6"
+      switch-checked-track-color: "#e0e0e0"
+      slider-color: "#a3b1c6"
+      slider-track-color: "#e0e0e0"
+      # Misc
+      paper-item-icon-color: "#a3b1c6"
+      paper-item-icon-active-color: "#a3b1c6"
+      paper-card-background-color: "#e0e0e0"
+      paper-card-header-color: "#333333"
+      # Shadows for neumorphism
+      box-shadow: "9px 9px 16px #bebebe, -9px -9px 16px #ffffff"
+    dark:
+      # Main Colors
+      accent-color: "#32d48e" # Green accent
+      accent-color-2: "#2196f3" # Blue accent
+      background-color: "#23272e"
+      card-background-color: "#23272e"
+      secondary-background-color: "#23272e"
+      primary-background-color: "#23272e"
+      primary-text-color: "#e0e0e0"
+      text-light-primary-color: "#b0b0b0"
+      text-medium-light-color: "#888888"
+      disabled-text-color: "#444444"
+      divider-color: "#23272e"
+      ha-section-grid-row-gap: "16px"
+      ha-section-grid-column-gap: "16px"
+      light-primary-color: "#23272e"
+      switch-unchecked-color: "#2196f3"
+      switch-unchecked-track-color: "#2196f3"
+      switch-checked-track-color: "#2196f3"
+      # Neumorphic Shadows (dark)
+      ha-card-box-shadow: "8px 8px 18px #181a1f, -8px -8px 18px #2c3140"
+      # Card
+      ha-card-border-radius: "18px"
+      ha-card-border-width: "8px"
+      ha-card-background: "#23272e"
+      # Header
+      app-header-background-color: "#23272e"
+      app-header-text-color: "#e0e0e0"
+      # Sidebar
+      sidebar-background-color: "#23272e"
+      sidebar-icon-color: "#32d48e"
+      sidebar-text-color: "#e0e0e0"
+      sidebar-selected-background-color: "#2c3140"
+      sidebar-selected-icon-color: "#2196f3"
+      sidebar-selected-text-color: "#e0e0e0"
+      # Switches and Sliders
+      switch-checked-button-color: "#32d48e"
+      switch-checked-track-color: "#23272e"
+      slider-color: "#2196f3"
+      slider-track-color: "#23272e"
+      # Misc
+      paper-item-icon-color: "#32d48e"
+      paper-item-icon-active-color: "#2196f3"
+      paper-card-background-color: "#23272e"
+      paper-card-header-color: "#e0e0e0"
+      # Shadows for neumorphism (dark)
+      box-shadow: "8px 8px 18px #181a1f, -8px -8px 18px #2c3140"
+      mdc-select-fill-color: "#23272e"
+      mdc-select-label-ink-color: "#e0e0e0"
+      mdc-select-ink-color: "#e0e0e0"
+      mdc-select-dropdown-icon-color: "#e0e0e0"
+      mdc-select-idle-line-color: "#23272e"
+      mdc-select-hover-line-color: "#32d48e"
+      mdc-text-field-fill-color: "#23272e"
+      mdc-text-field-ink-color: "#e0e0e0"
+      mdc-text-field-label-ink-color: "#e0e0e0"
+      mdc-text-field-idle-line-color: "#23272e"
+      mdc-text-field-hover-line-color: "#32d48e"
