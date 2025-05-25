@@ -50,6 +50,7 @@ Neumorphic:
       box-shadow: "9px 9px 16px #bebebe, -9px -9px 16px #ffffff"
     dark:
       # Main Colors
+      primary-color: "#e0e0e0"
       accent-color: "#32d48e" # Green accent
       accent-color-2: "#2196f3" # Blue accent
       background-color: "#23272e"
